@@ -1,0 +1,1841 @@
+{
+  "resourceType": "Bundle",
+  "id": "d554325959898c7e",
+  "meta": {
+    "lastUpdated": "2021-09-21T04:39:08+00:00"
+  },
+  "type": "searchset",
+  "total": 1065,
+  "link": [
+    {
+      "relation": "self",
+      "url": "/fhir/r4/Patient"
+    },
+    {
+      "relation": "next",
+      "url": "/fhir/r4?_getpages=d554325959898c7e&_getpagesoffset=10&_count=10&_pretty=true&_bundletype=searchset"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "/fhir/r4/Patient/211629211709875",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "211629211709875",
+        "meta": {
+          "versionId": "15",
+          "lastUpdated": "2021-03-16T02:30:07Z",
+          "tag": [
+            {
+              "system": "patientJacket",
+              "code": "211629211709875"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-birth-gender",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1",
+                  "code": "Not on file",
+                  "display": "Not on file"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-entered-on",
+            "valueDateTime": "2020-10-08T09:22:27+00:00"
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-ethnic-group",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-races",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2106-3",
+                  "display": "White"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1076",
+                  "code": "EPI",
+                  "display": "EPI"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ],
+              "text": "MRN"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.171.3.7.3.688884.100",
+            "value": "SH211629211709875",
+            "assigner": {
+              "reference": "Organization/7256"
+            }
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "text": "1629211710875 testing",
+            "family": "testing",
+            "given": [
+              "Test1629211710875"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-408-253-7416",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1993-03-17",
+        "address": [
+          {
+            "line": [
+              "111 Hanover Way"
+            ],
+            "city": "Chicago",
+            "district": "ABBEVILLE",
+            "state": "IL",
+            "postalCode": "60618",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "extension": [
+              {
+                "url": "http://intersystems.com/fhir/extn/sda3/lib/support-contact-relationship",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.5.111",
+                      "code": "MTH",
+                      "display": "Mother"
+                    }
+                  ],
+                  "text": "Mother"
+                }
+              }
+            ],
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "C"
+                  }
+                ]
+              }
+            ],
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "+1-408-253-7415",
+                "use": "home"
+              }
+            ]
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "code": "fra",
+                  "display": "fra"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "Practitioner/p861629194771800"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/fhir/r4/Patient/951629211997566",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "951629211997566",
+        "meta": {
+          "versionId": "15",
+          "lastUpdated": "2021-03-16T02:30:07Z",
+          "tag": [
+            {
+              "system": "patientJacket",
+              "code": "951629211997566"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-birth-gender",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1",
+                  "code": "Not on file",
+                  "display": "Not on file"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-entered-on",
+            "valueDateTime": "2020-10-08T09:22:27+00:00"
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-ethnic-group",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-races",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2106-3",
+                  "display": "White"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1076",
+                  "code": "EPI",
+                  "display": "EPI"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ],
+              "text": "MRN"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.171.3.7.3.688884.100",
+            "value": "SH951629211997566",
+            "assigner": {
+              "reference": "Organization/7256"
+            }
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "text": "1629211998566 testing",
+            "family": "testing",
+            "given": [
+              "Test1629211998566"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-408-253-7416",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1963-09-05",
+        "address": [
+          {
+            "line": [
+              "111 Hanover Way"
+            ],
+            "city": "Chicago",
+            "district": "ABBEVILLE",
+            "state": "IL",
+            "postalCode": "60618",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "extension": [
+              {
+                "url": "http://intersystems.com/fhir/extn/sda3/lib/support-contact-relationship",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.5.111",
+                      "code": "MTH",
+                      "display": "Mother"
+                    }
+                  ],
+                  "text": "Mother"
+                }
+              }
+            ],
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "C"
+                  }
+                ]
+              }
+            ],
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "+1-408-253-7415",
+                "use": "home"
+              }
+            ]
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "code": "fra",
+                  "display": "fra"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "Practitioner/p431629194804238"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/fhir/r4/Patient/501629212357784",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "501629212357784",
+        "meta": {
+          "versionId": "15",
+          "lastUpdated": "2021-03-16T02:30:07Z",
+          "tag": [
+            {
+              "system": "patientJacket",
+              "code": "501629212357784"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-birth-gender",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1",
+                  "code": "Not on file",
+                  "display": "Not on file"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-entered-on",
+            "valueDateTime": "2020-10-08T09:22:27+00:00"
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-ethnic-group",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-races",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2106-3",
+                  "display": "White"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1076",
+                  "code": "EPI",
+                  "display": "EPI"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ],
+              "text": "MRN"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.171.3.7.3.688884.100",
+            "value": "SH501629212357784",
+            "assigner": {
+              "reference": "Organization/7256"
+            }
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "text": "1629212358784 testing",
+            "family": "testing",
+            "given": [
+              "Test1629212358784"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-408-253-7416",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1981-07-18",
+        "address": [
+          {
+            "line": [
+              "111 Hanover Way"
+            ],
+            "city": "Chicago",
+            "district": "ABBEVILLE",
+            "state": "IL",
+            "postalCode": "60618",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "extension": [
+              {
+                "url": "http://intersystems.com/fhir/extn/sda3/lib/support-contact-relationship",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.5.111",
+                      "code": "MTH",
+                      "display": "Mother"
+                    }
+                  ],
+                  "text": "Mother"
+                }
+              }
+            ],
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "C"
+                  }
+                ]
+              }
+            ],
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "+1-408-253-7415",
+                "use": "home"
+              }
+            ]
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "code": "fra",
+                  "display": "fra"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "Practitioner/p871629194806262"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/fhir/r4/Patient/781629212573913",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "781629212573913",
+        "meta": {
+          "versionId": "15",
+          "lastUpdated": "2021-03-16T02:30:07Z",
+          "tag": [
+            {
+              "system": "patientJacket",
+              "code": "781629212573913"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-birth-gender",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1",
+                  "code": "Not on file",
+                  "display": "Not on file"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-entered-on",
+            "valueDateTime": "2020-10-08T09:22:27+00:00"
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-ethnic-group",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-races",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2106-3",
+                  "display": "White"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1076",
+                  "code": "EPI",
+                  "display": "EPI"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ],
+              "text": "MRN"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.171.3.7.3.688884.100",
+            "value": "SH781629212573913",
+            "assigner": {
+              "reference": "Organization/7256"
+            }
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "text": "1629212574914 testing",
+            "family": "testing",
+            "given": [
+              "Test1629212574914"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-408-253-7416",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1984-05-05",
+        "address": [
+          {
+            "line": [
+              "111 Hanover Way"
+            ],
+            "city": "Chicago",
+            "district": "ABBEVILLE",
+            "state": "IL",
+            "postalCode": "60618",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "extension": [
+              {
+                "url": "http://intersystems.com/fhir/extn/sda3/lib/support-contact-relationship",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.5.111",
+                      "code": "MTH",
+                      "display": "Mother"
+                    }
+                  ],
+                  "text": "Mother"
+                }
+              }
+            ],
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "C"
+                  }
+                ]
+              }
+            ],
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "+1-408-253-7415",
+                "use": "home"
+              }
+            ]
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "code": "fra",
+                  "display": "fra"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "Practitioner/p51629194765713"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/fhir/r4/Patient/991629212666411",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "991629212666411",
+        "meta": {
+          "versionId": "15",
+          "lastUpdated": "2021-03-16T02:30:07Z",
+          "tag": [
+            {
+              "system": "patientJacket",
+              "code": "991629212666411"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-birth-gender",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1",
+                  "code": "Not on file",
+                  "display": "Not on file"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-entered-on",
+            "valueDateTime": "2020-10-08T09:22:27+00:00"
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-ethnic-group",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-races",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2106-3",
+                  "display": "White"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1076",
+                  "code": "EPI",
+                  "display": "EPI"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ],
+              "text": "MRN"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.171.3.7.3.688884.100",
+            "value": "SH991629212666411",
+            "assigner": {
+              "reference": "Organization/7256"
+            }
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "text": "1629212667411 testing",
+            "family": "testing",
+            "given": [
+              "Test1629212667411"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-408-253-7416",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1955-04-16",
+        "address": [
+          {
+            "line": [
+              "111 Hanover Way"
+            ],
+            "city": "Chicago",
+            "district": "ABBEVILLE",
+            "state": "IL",
+            "postalCode": "60618",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "extension": [
+              {
+                "url": "http://intersystems.com/fhir/extn/sda3/lib/support-contact-relationship",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.5.111",
+                      "code": "MTH",
+                      "display": "Mother"
+                    }
+                  ],
+                  "text": "Mother"
+                }
+              }
+            ],
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "C"
+                  }
+                ]
+              }
+            ],
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "+1-408-253-7415",
+                "use": "home"
+              }
+            ]
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "code": "fra",
+                  "display": "fra"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "Practitioner/p751629194796162"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/fhir/r4/Patient/871629212817249",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "871629212817249",
+        "meta": {
+          "versionId": "15",
+          "lastUpdated": "2021-03-16T02:30:07Z",
+          "tag": [
+            {
+              "system": "patientJacket",
+              "code": "871629212817249"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-birth-gender",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1",
+                  "code": "Not on file",
+                  "display": "Not on file"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-entered-on",
+            "valueDateTime": "2020-10-08T09:22:27+00:00"
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-ethnic-group",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-races",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2106-3",
+                  "display": "White"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1076",
+                  "code": "EPI",
+                  "display": "EPI"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ],
+              "text": "MRN"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.171.3.7.3.688884.100",
+            "value": "SH871629212817249",
+            "assigner": {
+              "reference": "Organization/7256"
+            }
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "text": "1629212818249 testing",
+            "family": "testing",
+            "given": [
+              "Test1629212818249"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-408-253-7416",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1985-03-11",
+        "address": [
+          {
+            "line": [
+              "111 Hanover Way"
+            ],
+            "city": "Chicago",
+            "district": "ABBEVILLE",
+            "state": "IL",
+            "postalCode": "60618",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "extension": [
+              {
+                "url": "http://intersystems.com/fhir/extn/sda3/lib/support-contact-relationship",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.5.111",
+                      "code": "MTH",
+                      "display": "Mother"
+                    }
+                  ],
+                  "text": "Mother"
+                }
+              }
+            ],
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "C"
+                  }
+                ]
+              }
+            ],
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "+1-408-253-7415",
+                "use": "home"
+              }
+            ]
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "code": "fra",
+                  "display": "fra"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "Practitioner/p221629194747647"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/fhir/r4/Patient/741629212963423",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "741629212963423",
+        "meta": {
+          "versionId": "15",
+          "lastUpdated": "2021-03-16T02:30:07Z",
+          "tag": [
+            {
+              "system": "patientJacket",
+              "code": "741629212963423"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-birth-gender",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1",
+                  "code": "Not on file",
+                  "display": "Not on file"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-entered-on",
+            "valueDateTime": "2020-10-08T09:22:27+00:00"
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-ethnic-group",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-races",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2106-3",
+                  "display": "White"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1076",
+                  "code": "EPI",
+                  "display": "EPI"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ],
+              "text": "MRN"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.171.3.7.3.688884.100",
+            "value": "SH741629212963423",
+            "assigner": {
+              "reference": "Organization/7256"
+            }
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "text": "1629212964423 testing",
+            "family": "testing",
+            "given": [
+              "Test1629212964423"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-408-253-7416",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1953-05-30",
+        "address": [
+          {
+            "line": [
+              "111 Hanover Way"
+            ],
+            "city": "Chicago",
+            "district": "ABBEVILLE",
+            "state": "IL",
+            "postalCode": "60618",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "extension": [
+              {
+                "url": "http://intersystems.com/fhir/extn/sda3/lib/support-contact-relationship",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.5.111",
+                      "code": "MTH",
+                      "display": "Mother"
+                    }
+                  ],
+                  "text": "Mother"
+                }
+              }
+            ],
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "C"
+                  }
+                ]
+              }
+            ],
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "+1-408-253-7415",
+                "use": "home"
+              }
+            ]
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "code": "fra",
+                  "display": "fra"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "Practitioner/p981629194727252"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/fhir/r4/Patient/751629213150181",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "751629213150181",
+        "meta": {
+          "versionId": "15",
+          "lastUpdated": "2021-03-16T02:30:07Z",
+          "tag": [
+            {
+              "system": "patientJacket",
+              "code": "751629213150181"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-birth-gender",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1",
+                  "code": "Not on file",
+                  "display": "Not on file"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-entered-on",
+            "valueDateTime": "2020-10-08T09:22:27+00:00"
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-ethnic-group",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-races",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2106-3",
+                  "display": "White"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1076",
+                  "code": "EPI",
+                  "display": "EPI"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ],
+              "text": "MRN"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.171.3.7.3.688884.100",
+            "value": "SH751629213150181",
+            "assigner": {
+              "reference": "Organization/7256"
+            }
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "text": "1629213151181 testing",
+            "family": "testing",
+            "given": [
+              "Test1629213151181"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-408-253-7416",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1958-07-17",
+        "address": [
+          {
+            "line": [
+              "111 Hanover Way"
+            ],
+            "city": "Chicago",
+            "district": "ABBEVILLE",
+            "state": "IL",
+            "postalCode": "60618",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "extension": [
+              {
+                "url": "http://intersystems.com/fhir/extn/sda3/lib/support-contact-relationship",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.5.111",
+                      "code": "MTH",
+                      "display": "Mother"
+                    }
+                  ],
+                  "text": "Mother"
+                }
+              }
+            ],
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "C"
+                  }
+                ]
+              }
+            ],
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "+1-408-253-7415",
+                "use": "home"
+              }
+            ]
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "code": "fra",
+                  "display": "fra"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "Practitioner/p731629194788019"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/fhir/r4/Patient/61629213222577",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "61629213222577",
+        "meta": {
+          "versionId": "15",
+          "lastUpdated": "2021-03-16T02:30:07Z",
+          "tag": [
+            {
+              "system": "patientJacket",
+              "code": "61629213222577"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-birth-gender",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1",
+                  "code": "Not on file",
+                  "display": "Not on file"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-entered-on",
+            "valueDateTime": "2020-10-08T09:22:27+00:00"
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-ethnic-group",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-races",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2106-3",
+                  "display": "White"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1076",
+                  "code": "EPI",
+                  "display": "EPI"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ],
+              "text": "MRN"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.171.3.7.3.688884.100",
+            "value": "SH61629213222577",
+            "assigner": {
+              "reference": "Organization/7256"
+            }
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "text": "1629213223577 testing",
+            "family": "testing",
+            "given": [
+              "Test1629213223577"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-408-253-7416",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2009-05-21",
+        "address": [
+          {
+            "line": [
+              "111 Hanover Way"
+            ],
+            "city": "Chicago",
+            "district": "ABBEVILLE",
+            "state": "IL",
+            "postalCode": "60618",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "extension": [
+              {
+                "url": "http://intersystems.com/fhir/extn/sda3/lib/support-contact-relationship",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.5.111",
+                      "code": "MTH",
+                      "display": "Mother"
+                    }
+                  ],
+                  "text": "Mother"
+                }
+              }
+            ],
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "C"
+                  }
+                ]
+              }
+            ],
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "+1-408-253-7415",
+                "use": "home"
+              }
+            ]
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "code": "fra",
+                  "display": "fra"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "Practitioner/p321629194743615"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/fhir/r4/Patient/481629213299327",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "481629213299327",
+        "meta": {
+          "versionId": "15",
+          "lastUpdated": "2021-03-16T02:30:07Z",
+          "tag": [
+            {
+              "system": "patientJacket",
+              "code": "481629213299327"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-birth-gender",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1",
+                  "code": "Not on file",
+                  "display": "Not on file"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-entered-on",
+            "valueDateTime": "2020-10-08T09:22:27+00:00"
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-ethnic-group",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://intersystems.com/fhir/extn/sda3/lib/patient-races",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2106-3",
+                  "display": "White"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.5.1076",
+                  "code": "EPI",
+                  "display": "EPI"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ],
+              "text": "MRN"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.171.3.7.3.688884.100",
+            "value": "SH481629213299327",
+            "assigner": {
+              "reference": "Organization/7256"
+            }
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "text": "1629213300327 testing",
+            "family": "testing",
+            "given": [
+              "Test1629213300327"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1-408-253-7416",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1973-02-10",
+        "address": [
+          {
+            "line": [
+              "111 Hanover Way"
+            ],
+            "city": "Chicago",
+            "district": "ABBEVILLE",
+            "state": "IL",
+            "postalCode": "60618",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "extension": [
+              {
+                "url": "http://intersystems.com/fhir/extn/sda3/lib/support-contact-relationship",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.5.111",
+                      "code": "MTH",
+                      "display": "Mother"
+                    }
+                  ],
+                  "text": "Mother"
+                }
+              }
+            ],
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "C"
+                  }
+                ]
+              }
+            ],
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "+1-408-253-7415",
+                "use": "home"
+              }
+            ]
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "code": "fra",
+                  "display": "fra"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "Practitioner/p181629194810309"
+          }
+        ]
+      }
+    }
+  ]
+}

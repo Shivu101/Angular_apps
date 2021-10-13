@@ -1,0 +1,21 @@
+<!-- Sidebar -->
+<div id="sidebar">
+  <header class="textColor">
+    <h4>Patient List</h4>
+  </header>
+  <ul class="dataListStyle">
+    <li
+      class="list-item"
+      style="cursor: pointer"
+      (click)="onSelect(data.resource.id)"
+      *ngFor="let data of dataList.entry"
+    >
+      Patient id: {{ data.resource.id }}
+      <ul style="list-style: none">
+        <li *ngFor="let name of data.resource.name">
+          Family - {{ name.family }}
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
